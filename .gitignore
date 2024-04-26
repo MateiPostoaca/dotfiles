@@ -16,6 +16,7 @@ Videos/**
 .yarn/**
 .npm/**
 .hidden/**
+.stack/**
 .mozilla/**
 .local/share/**
 !.local/share/icons/
