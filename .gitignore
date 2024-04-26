@@ -1,0 +1,30 @@
+.yarnrc
+.Xauthority
+.wget-hsts
+.hushlogin
+.gitconfig
+
+# personal folders
+Documents/**
+Downloads/**
+Music/**
+Pictures/**
+Videos/**
+
+# other junk
+.yarn/**
+.npm/**
+.mozilla/**
+.local/share/**
+!.local/share/icons/
+.local/state/**
+.git/**
+.cargo/**
+.cache/**
+.gnupg/**
+.librewolf/**
+
+# possible
+.gtkrc-2.0
+.xprofile
+
