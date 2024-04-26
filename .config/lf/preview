@@ -19,4 +19,13 @@ if [[ "$filetype" =~ ^video ]]; then
     exit 1
 fi
 
+filename=$(basename $(echo "$file" | tr ' ' '_'))
+if [[ "$(file -Lb --mime-type "$file")" =~ ^application/pdf ]]; then
+    if [[ ! -f "/tmp/$filename.png" ]]; then
+        pdftoppm -f 1 -l 1 "$file" >> "/tmp/$filename.png"
+    fi
+    kitty +kitten icat --silent --stdin no --transfer-mode file --place "${w}x${h}@${x}x${y}" "/tmp/$filename.png" < /dev/null > /dev/tty
+	exit 1
+fi
+
 pistol "$file"
