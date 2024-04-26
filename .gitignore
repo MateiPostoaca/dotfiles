@@ -23,6 +23,7 @@ Videos/**
 .git/**
 .cargo/**
 .cache/**
+.config/nvim/lazy-lock.json
 .gnupg/**
 .librewolf/**
 
