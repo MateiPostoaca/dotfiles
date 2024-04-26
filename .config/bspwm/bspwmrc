@@ -3,6 +3,7 @@
 export TERMINAL="~/.local/bin/xdg-terminal-exec"
 pgrep -x sxhkd > /dev/null || sxhkd &
 xsetroot -cursor_name left_ptr &
+xrdb -load ~/.config/x11/xresources
 ~/.fehbg &
 dunst &
 pipewire &
