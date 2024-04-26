@@ -17,6 +17,7 @@ Videos/**
 .mozilla/**
 .local/share/**
 !.local/share/icons/
+!Pictures/wallpaper.png
 .local/state/**
 .git/**
 .cargo/**
