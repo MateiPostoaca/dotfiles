@@ -45,6 +45,10 @@ export SQLITE_HISTORY="$XDG_DATA_HOME/sqlite_history"
 export LESSHISTFILE="$XDG_DATA_HOME/less/history"
 export LESSKEY="$XDG_DATA_HOME/less/keys"
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+export NNN_FIFO=/tmp/nnn.fifo
+export NNN_PLUG='p:preview-tui'
+export USE_PISTOL=1
+alias nnn='nnn -Pp'
 
 # general program settings:
 export LESS="R"

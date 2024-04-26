@@ -1,6 +1,8 @@
 #!/bin/sh
 
 export TERMINAL="~/.local/bin/xdg-terminal-exec"
+xrandr --dpi 96
+remapd &
 pgrep -x sxhkd > /dev/null || sxhkd &
 xsetroot -cursor_name left_ptr &
 xrdb -load ~/.config/x11/xresources
