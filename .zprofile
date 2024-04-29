@@ -27,6 +27,7 @@ export HISTFILE="$XDG_STATE_HOME/history"
 # x11, graphical environment:
 export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/settings.ini"
+export XMODMAPRC="$HOME/.config/x11/xmodmap"
 
 # other:
 export WGETRC="$XDG_CONFIG_HOME/wget/wgetrc"

@@ -19,13 +19,17 @@ Videos/**
 .stack/**
 .mozilla/**
 .local/share/**
-!.local/share/icons/
+!.local/share/icons/dunst/
 !Pictures/wallpaper.png
 .local/state/**
 .git/**
 .cargo/**
 .cache/**
 .config/nvim/lazy-lock.json
+.config/QtProject.conf
+.config/brightness_controller/**
+.config/ncmpcpp/error.log
+.config/qBittorrent/**
 .gnupg/**
 .librewolf/**
 
