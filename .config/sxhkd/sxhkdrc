@@ -38,6 +38,10 @@ super + w
 super + e
 	kitty lf
 
+# ncmpcpp
+super + r 
+	kitty ncmpcpp
+
 # terminal emulator
 super + Return
 	kitty
