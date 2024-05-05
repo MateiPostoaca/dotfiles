@@ -42,6 +42,10 @@ super + e
 super + r 
 	kitty ncmpcpp
 
+# calcurse
+super + a
+	kitty calcurse
+
 # terminal emulator
 super + Return
 	kitty
