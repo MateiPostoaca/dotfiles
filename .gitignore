@@ -15,6 +15,7 @@ Videos/**
 # other junk
 .yarn/**
 .npm/**
+.pki/**
 .hidden/**
 .stack/**
 .mozilla/**
@@ -30,6 +31,7 @@ Videos/**
 .config/brightness_controller/**
 .config/ncmpcpp/error.log
 .config/qBittorrent/**
+.config/dconf/user
 .gnupg/**
 .librewolf/**
 

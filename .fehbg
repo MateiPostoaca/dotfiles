@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/anonymous/Pictures/wallpaper.png' 
+feh --no-fehbg --bg-scale '/home/anonymous/Downloads/Stick2/nordic-wallpapers/wallpapers/ign_unsplash40.png' 

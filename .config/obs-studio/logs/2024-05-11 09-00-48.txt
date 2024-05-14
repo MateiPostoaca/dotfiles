@@ -1,0 +1,216 @@
+09:00:48.498: Using EGL/X11
+09:00:48.498: CPU Name: 11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz
+09:00:48.498: CPU Speed: 2134.649MHz
+09:00:48.498: Physical Cores: 8, Logical Cores: 16
+09:00:48.498: Physical Memory: 15865MB Total, 12266MB Free
+09:00:48.498: Kernel Version: Linux 6.8.9-arch1-2
+09:00:48.498: Distribution: "Arch Linux" Unknown
+09:00:48.498: Desktop Environment: bspwm
+09:00:48.498: Session Type: x11
+09:00:48.498: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+09:00:48.499: Qt Version: 6.7.0 (runtime), 6.7.0 (compiled)
+09:00:48.499: Portable mode: false
+09:00:48.553: OBS 30.1.2-1 (linux)
+09:00:48.553: ---------------------------------
+09:00:48.553: ---------------------------------
+09:00:48.553: audio settings reset:
+09:00:48.553: 	samples per sec: 48000
+09:00:48.553: 	speakers:        2
+09:00:48.553: 	max buffering:   960 milliseconds
+09:00:48.553: 	buffering type:  dynamically increasing
+09:00:48.554: ---------------------------------
+09:00:48.554: Initializing OpenGL...
+09:00:48.660: Loading up OpenGL on adapter Mesa NV176
+09:00:48.660: OpenGL loaded successfully, version 4.3 (Core Profile) Mesa 24.0.6-arch1.2, shading language 4.30
+09:00:48.741: ---------------------------------
+09:00:48.741: video settings reset:
+09:00:48.741: 	base resolution:   1920x1080
+09:00:48.741: 	output resolution: 1280x720
+09:00:48.741: 	downscale filter:  Bicubic
+09:00:48.741: 	fps:               30/1
+09:00:48.741: 	format:            NV12
+09:00:48.741: 	YUV mode:          Rec. 709/Partial
+09:00:48.741: NV12 texture support enabled
+09:00:48.741: P010 texture support not available
+09:00:48.747: Audio monitoring device:
+09:00:48.747: 	name: Default
+09:00:48.747: 	id: default
+09:00:48.747: ---------------------------------
+09:00:48.751: Failed to load 'en-US' text for module: 'decklink-captions.so'
+09:00:48.755: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+09:00:48.758: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:00:48.758: Failed to initialize module 'decklink.so'
+09:00:48.850: [pipewire] No captures available
+09:00:48.861: v4l2loopback not installed, virtual camera disabled
+09:00:48.889: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+09:00:48.889: 
+09:00:48.910: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+09:00:48.910: FFmpeg VAAPI H264 encoding not supported
+09:00:48.923: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+09:00:48.923: FFmpeg VAAPI AV1 encoding not supported
+09:00:48.940: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+09:00:48.940: FFmpeg VAAPI HEVC encoding not supported
+09:00:49.007: ---------------------------------
+09:00:49.007:   Loaded Modules:
+09:00:49.007:     text-freetype2.so
+09:00:49.007:     rtmp-services.so
+09:00:49.007:     obs-x264.so
+09:00:49.007:     obs-webrtc.so
+09:00:49.007:     obs-vst.so
+09:00:49.007:     obs-transitions.so
+09:00:49.007:     obs-qsv11.so
+09:00:49.007:     obs-outputs.so
+09:00:49.007:     obs-libfdk.so
+09:00:49.007:     obs-filters.so
+09:00:49.007:     obs-ffmpeg.so
+09:00:49.007:     linux-v4l2.so
+09:00:49.007:     linux-pulseaudio.so
+09:00:49.007:     linux-pipewire.so
+09:00:49.007:     linux-jack.so
+09:00:49.007:     linux-capture.so
+09:00:49.007:     linux-alsa.so
+09:00:49.007:     image-source.so
+09:00:49.007:     frontend-tools.so
+09:00:49.007:     decklink-output-ui.so
+09:00:49.007:     decklink-captions.so
+09:00:49.007: ---------------------------------
+09:00:49.007: ==== Startup complete ===============================================
+09:00:49.010: No scene file found, creating default scene
+09:00:49.065: All scene data cleared
+09:00:49.065: ------------------------------------------------
+09:00:49.072: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+09:00:49.072: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+09:00:49.072: pulse-input: Started recording from 'alsa_output.usb-HP__Inc_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor' (default)
+09:00:49.073: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+09:00:49.073: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+09:00:49.073: pulse-input: Started recording from 'alsa_input.usb-HP__Inc_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo' (default)
+09:00:49.074: Switched to scene 'Scene'
+09:00:49.074: Failed to glob scene collections
+09:00:49.527: [rtmp-services plugin] Successfully updated file 'services.json' (version 251)
+09:00:49.527: [rtmp-services plugin] Successfully updated package (version 251)
+09:00:49.620: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+09:00:49.620: 
+09:00:56.722: 
+09:00:56.722: ==== Auto-config wizard testing commencing ======
+
+09:00:56.747: Number of remaining views: 1
+09:00:56.747: ---------------------------------
+09:00:56.747: video settings reset:
+09:00:56.747: 	base resolution:   1920x1080
+09:00:56.747: 	output resolution: 1920x1080
+09:00:56.747: 	downscale filter:  Bicubic
+09:00:56.747: 	fps:               60/1
+09:00:56.747: 	format:            NV12
+09:00:56.747: 	YUV mode:          Rec. 709/Partial
+09:00:56.748: NV12 texture support enabled
+09:00:56.748: P010 texture support not available
+09:00:56.752: Output 'null': Tried to use obs_output_set_media on an encoded output
+09:00:56.752: ---------------------------------
+09:00:56.752: [x264 encoder: 'test_x264'] preset: veryfast
+09:00:56.752: [x264 encoder: 'test_x264'] profile: high
+09:00:56.753: [x264 encoder: 'test_x264'] settings:
+09:00:56.753: 	rate_control: CRF
+09:00:56.753: 	bitrate:      0
+09:00:56.753: 	buffer size:  0
+09:00:56.753: 	crf:          20
+09:00:56.753: 	fps_num:      60
+09:00:56.753: 	fps_den:      1
+09:00:56.753: 	width:        1920
+09:00:56.753: 	height:       1080
+09:00:56.753: 	keyint:       250
+09:00:56.753: 
+09:00:56.789: ---------------------------------
+09:00:56.789: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+09:00:56.789: 
+09:01:01.790: Output 'null': stopping
+09:01:01.790: Output 'null': Total frames output: 260
+09:01:01.790: Output 'null': Total drawn frames: 300
+09:01:01.886: Number of remaining views: 1
+09:01:01.886: ---------------------------------
+09:01:01.886: video settings reset:
+09:01:01.886: 	base resolution:   1920x1080
+09:01:01.886: 	output resolution: 1920x1080
+09:01:01.886: 	downscale filter:  Bicubic
+09:01:01.886: 	fps:               30/1
+09:01:01.886: 	format:            NV12
+09:01:01.886: 	YUV mode:          Rec. 709/Partial
+09:01:01.886: NV12 texture support enabled
+09:01:01.886: P010 texture support not available
+09:01:01.889: Output 'null': Tried to use obs_output_set_media on an encoded output
+09:01:01.889: ---------------------------------
+09:01:01.889: [x264 encoder: 'test_x264'] preset: veryfast
+09:01:01.889: [x264 encoder: 'test_x264'] profile: high
+09:01:01.889: [x264 encoder: 'test_x264'] settings:
+09:01:01.889: 	rate_control: CRF
+09:01:01.889: 	bitrate:      0
+09:01:01.889: 	buffer size:  0
+09:01:01.889: 	crf:          20
+09:01:01.889: 	fps_num:      30
+09:01:01.889: 	fps_den:      1
+09:01:01.889: 	width:        1920
+09:01:01.889: 	height:       1080
+09:01:01.889: 	keyint:       250
+09:01:01.889: 
+09:01:01.920: ---------------------------------
+09:01:01.920: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+09:01:01.920: 
+09:01:06.920: Output 'null': stopping
+09:01:06.920: Output 'null': Total frames output: 111
+09:01:06.920: Output 'null': Total drawn frames: 150
+09:01:06.990: Number of remaining views: 1
+09:01:06.990: ---------------------------------
+09:01:06.990: video settings reset:
+09:01:06.990: 	base resolution:   1920x1080
+09:01:06.990: 	output resolution: 1280x720
+09:01:06.990: 	downscale filter:  Bicubic
+09:01:06.990: 	fps:               60/1
+09:01:06.990: 	format:            NV12
+09:01:06.990: 	YUV mode:          Rec. 709/Partial
+09:01:06.990: NV12 texture support enabled
+09:01:06.990: P010 texture support not available
+09:01:06.992: Output 'null': Tried to use obs_output_set_media on an encoded output
+09:01:06.992: ---------------------------------
+09:01:06.992: [x264 encoder: 'test_x264'] preset: veryfast
+09:01:06.992: [x264 encoder: 'test_x264'] profile: high
+09:01:06.992: [x264 encoder: 'test_x264'] settings:
+09:01:06.992: 	rate_control: CRF
+09:01:06.992: 	bitrate:      0
+09:01:06.992: 	buffer size:  0
+09:01:06.992: 	crf:          20
+09:01:06.992: 	fps_num:      60
+09:01:06.992: 	fps_den:      1
+09:01:06.992: 	width:        1280
+09:01:06.992: 	height:       720
+09:01:06.992: 	keyint:       250
+09:01:06.992: 
+09:01:07.003: ---------------------------------
+09:01:07.003: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+09:01:07.003: 
+09:01:12.004: Output 'null': stopping
+09:01:12.004: Output 'null': Total frames output: 264
+09:01:12.004: Output 'null': Total drawn frames: 300
+09:01:12.025: Number of remaining views: 1
+09:01:12.025: ---------------------------------
+09:01:12.025: video settings reset:
+09:01:12.025: 	base resolution:   1920x1080
+09:01:12.025: 	output resolution: 1280x720
+09:01:12.025: 	downscale filter:  Bicubic
+09:01:12.025: 	fps:               30/1
+09:01:12.025: 	format:            NV12
+09:01:12.025: 	YUV mode:          Rec. 709/Partial
+09:01:12.025: NV12 texture support enabled
+09:01:12.025: P010 texture support not available
+09:01:16.028: Number of remaining views: 1
+09:01:16.028: ---------------------------------
+09:01:16.028: video settings reset:
+09:01:16.028: 	base resolution:   1920x1080
+09:01:16.028: 	output resolution: 1920x1080
+09:01:16.028: 	downscale filter:  Bicubic
+09:01:16.028: 	fps:               60/1
+09:01:16.028: 	format:            NV12
+09:01:16.028: 	YUV mode:          Rec. 709/Partial
+09:01:16.028: NV12 texture support enabled
+09:01:16.028: P010 texture support not available
+09:01:16.033: 
+09:01:16.033: ==== Auto-config wizard testing stopping ========
+
