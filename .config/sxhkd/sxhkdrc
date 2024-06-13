@@ -30,6 +30,14 @@ super + z
 super + alt + e
 	rofi -show calc
 
+# routine
+super + alt + y
+	kitty nvim ~/Documents/routine
+
+# identity
+super + shift + y
+	kitty nvim ~/Documents/identity
+
 # firefox
 super + w
 	firefox
@@ -37,6 +45,14 @@ super + w
 # lf file manager
 super + e
 	kitty lf
+
+# lf file manager /mnt
+super + ctrl + e
+	kitty lf /mnt/data/anonymous/
+
+# lf file manager ~/Documents/Academic/Romanian
+super + shift + e
+	kitty lf ~/Documents/Academic/Romanian
 
 # ncmpcpp
 super + r 

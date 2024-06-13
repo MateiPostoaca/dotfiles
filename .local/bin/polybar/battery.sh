@@ -24,7 +24,7 @@ for battery in /sys/class/power_supply/BAT?*; do
                 $(( capacity >= 30 )) ) status="󰁼 " ;;
                 $(( capacity >= 20 )) ) status="󰁻 " ;;
                 $(( capacity >= 10 )) ) status="󰁺 " ;;
-                * ) $status="󰂎 " ;;
+                *) status="󰂎 " ;;
             esac
         ;;
         "Charging")
@@ -39,7 +39,7 @@ for battery in /sys/class/power_supply/BAT?*; do
                 $(( capacity >= 30 )) ) status="󰂇 " ;;
                 $(( capacity >= 20 )) ) status="󰂆 " ;;
                 $(( capacity >= 10 )) ) status="󰢜 " ;;
-                * ) $status="󰢟 " ;;
+                *) status="󰢟 " ;;
             esac
         ;;
         "Not charging") status="󰂃 " ;;
