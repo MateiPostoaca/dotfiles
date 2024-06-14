@@ -3,6 +3,7 @@
 .wget-hsts
 .hushlogin
 .gitconfig
+.dmrc
 readme.md
 
 # personal folders
@@ -35,6 +36,8 @@ Videos/**
 .config/Pinta/**
 .config/Kitware/**
 .config/GIMP/**
+.config/bluetuith/**
+.config/obs-studio/**
 .config/fontforge/**
 .config/dconf/user
 .gnupg/**
