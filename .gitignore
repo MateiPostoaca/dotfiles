@@ -33,6 +33,9 @@ Videos/**
 .config/qBittorrent/**
 .config/libreoffice/**
 .config/Pinta/**
+.config/Kitware/**
+.config/GIMP/**
+.config/fontforge/**
 .config/dconf/user
 .gnupg/**
 .librewolf/**
