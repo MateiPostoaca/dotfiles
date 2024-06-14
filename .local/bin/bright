@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Define the output screen (change this to your actual screen if it's different)
+OUTPUT=$(xrandr | grep " connected" | cut -f1 -d" ")
+
+# Get the current brightness value
+CURRENT_BRIGHTNESS=$(xrandr --verbose | grep -i brightness | awk '{ print $2 }')
+
+# Convert the current brightness to a percentage
+CURRENT_BRIGHTNESS_PERCENT=$(echo "$CURRENT_BRIGHTNESS * 100" | bc)
+
+# Determine the adjustment amount
+ADJUSTMENT=5
+
+# Set the new brightness value based on the argument
+if [ "$1" == "+" ]; then
+    NEW_BRIGHTNESS_PERCENT=$(echo "$CURRENT_BRIGHTNESS_PERCENT + $ADJUSTMENT" | bc)
+elif [ "$1" == "-" ]; then
+    NEW_BRIGHTNESS_PERCENT=$(echo "$CURRENT_BRIGHTNESS_PERCENT - $ADJUSTMENT" | bc)
+else
+    echo "Usage: bright + | bright -"
+    exit 1
+fi
+
+# Ensure the brightness is within the range of 10% to 100%
+if (( $(echo "$NEW_BRIGHTNESS_PERCENT > 100" | bc -l) )); then
+    NEW_BRIGHTNESS_PERCENT=100
+elif (( $(echo "$NEW_BRIGHTNESS_PERCENT < 10" | bc -l) )); then
+    NEW_BRIGHTNESS_PERCENT=10
+fi
+
+# Convert the new brightness percentage back to a decimal
+NEW_BRIGHTNESS=$(echo "$NEW_BRIGHTNESS_PERCENT / 100" | bc -l)
+
+# Set the new brightness
+xrandr --output "$OUTPUT" --brightness "$NEW_BRIGHTNESS"
+
+echo "Brightness set to $NEW_BRIGHTNESS_PERCENT%"

@@ -18,6 +18,14 @@ Print
 XF86MonBrightness{Up,Down}
 	brightnessctl set 5%{+,-}
 
+# increase brightness
+super + shift + m
+	bright +
+
+# decrease brightness
+super + shift + n
+	bright -
+
 # lock screen
 super + x
 	betterlockscreen -l dim

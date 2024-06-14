@@ -32,6 +32,7 @@ Videos/**
 .config/ncmpcpp/error.log
 .config/qBittorrent/**
 .config/libreoffice/**
+.config/Pinta/**
 .config/dconf/user
 .gnupg/**
 .librewolf/**
