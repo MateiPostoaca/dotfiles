@@ -4,6 +4,8 @@
 .hushlogin
 .gitconfig
 .dmrc
+.xsession-errors
+.xsession-errors.old
 readme.md
 
 # personal folders
