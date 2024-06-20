@@ -46,6 +46,10 @@ super + alt + y
 super + shift + y
 	kitty nvim ~/Documents/identity
 
+# tmp
+super + shift + r
+	kitty nvim ~/Documents/tmp
+
 # firefox
 super + w
 	firefox
