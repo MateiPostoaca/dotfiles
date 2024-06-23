@@ -50,6 +50,18 @@ super + shift + y
 super + shift + r
 	kitty nvim ~/Documents/tmp
 
+# word - structuri
+super + v
+	libreoffice ~/Documents/Academic/Romanian/Word-Other/Structuri.docx
+
+# word - structuri
+super + alt + v
+	libreoffice ~/Documents/Academic/Romanian/Word-Other/Disponibil.docx
+
+# word
+super + shift + v
+	kitty lf ~/Documents/Academic/Romanian/Word-Subject\ III
+
 # firefox
 super + w
 	firefox
