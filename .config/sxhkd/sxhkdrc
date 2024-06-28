@@ -38,14 +38,6 @@ super + z
 super + alt + e
 	rofi -show calc
 
-# routine
-super + alt + y
-	kitty nvim ~/Documents/routine
-
-# identity
-super + shift + y
-	kitty nvim ~/Documents/identity
-
 # tmp
 super + shift + r
 	kitty nvim ~/Documents/tmp
@@ -61,6 +53,14 @@ super + alt + v
 # word
 super + shift + v
 	kitty lf ~/Documents/Academic/Romanian/Word-Subject\ III
+
+# notes
+super + shift + a
+	kitty notes
+
+# reset notes
+super + alt + a
+	~/.local/bin/neorg/reset-tasks.sh
 
 # firefox
 super + w
