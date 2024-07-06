@@ -38,22 +38,6 @@ super + z
 super + alt + e
 	rofi -show calc
 
-# tmp
-super + shift + r
-	kitty nvim ~/Documents/tmp
-
-# word - structuri
-super + v
-	libreoffice ~/Documents/Academic/Romanian/Word-Other/Structuri.docx
-
-# word - structuri
-super + alt + v
-	libreoffice ~/Documents/Academic/Romanian/Word-Other/Disponibil.docx
-
-# word
-super + shift + v
-	kitty lf ~/Documents/Academic/Romanian/Word-Subject\ III
-
 # notes
 super + shift + a
 	kitty notes
@@ -74,9 +58,9 @@ super + e
 super + ctrl + e
 	kitty lf /mnt/data/anonymous/
 
-# lf file manager ~/Documents/Academic/Romanian
+# lf file manager ~/Documents/Academic/
 super + shift + e
-	kitty lf ~/Documents/Academic/Romanian
+	kitty lf ~/Documents/Academic/
 
 # ncmpcpp
 super + r 

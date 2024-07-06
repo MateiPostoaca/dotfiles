@@ -21,6 +21,12 @@ return {
               default_workspace = "Notes",
             },
           },
+          ["core.integrations.treesitter"] = {},
+          ["core.journal"] = {
+            config = {
+              journal_folder = "Journal",
+            },
+          },
         },
       }
       vim.wo.foldlevel = 99
