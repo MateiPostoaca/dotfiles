@@ -9,7 +9,7 @@ dim_level=40
 blur_level=1
 pixel_scale=10,1000
 solid_color=000000
-wallpaper_cmd="feh --bg-fill"
+wallpaper_cmd="feh --no-fehbg --bg-fill /home/anonymous/Pictures/wallpaper.png"
 quiet=false
 
 # default theme

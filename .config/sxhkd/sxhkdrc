@@ -28,7 +28,7 @@ super + shift + n
 
 # lock screen
 super + x
-	betterlockscreen -l dim
+	betterlockscreen -l
 
 # powermenu
 super + z
@@ -39,12 +39,16 @@ super + alt + e
 	rofi -show calc
 
 # notes
-super + shift + a
+super + a
 	kitty notes
 
 # reset notes
 super + alt + a
 	~/.local/bin/neorg/reset-tasks.sh
+
+# make/enter today's journal entry
+super + shift + a
+	kitty nvim -c "Neorg journal today"
 
 # firefox
 super + w
@@ -65,10 +69,6 @@ super + shift + e
 # ncmpcpp
 super + r 
 	kitty ncmpcpp
-
-# calcurse
-super + a
-	kitty calcurse
 
 # terminal emulator
 super + Return
