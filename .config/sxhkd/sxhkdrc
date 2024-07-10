@@ -67,7 +67,7 @@ super + shift + e
 	kitty lf ~/Documents/Academic/
 
 # ncmpcpp
-super + r 
+super + alt + m
 	kitty ncmpcpp
 
 # terminal emulator

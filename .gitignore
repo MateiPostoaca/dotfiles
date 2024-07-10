@@ -43,6 +43,8 @@ Videos/**
 .config/fontforge/**
 .config/dconf/user
 .config/mpd/database
+.config/kritarc
+.config/kritadisplayrc
 .gnupg/**
 .librewolf/**
 
