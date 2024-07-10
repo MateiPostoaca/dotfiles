@@ -42,6 +42,7 @@ Videos/**
 .config/obs-studio/**
 .config/fontforge/**
 .config/dconf/user
+.config/mpd/database
 .gnupg/**
 .librewolf/**
 
