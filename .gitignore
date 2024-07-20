@@ -29,7 +29,6 @@ Videos/**
 .git/**
 .cargo/**
 .cache/**
-.config/nvim/lazy-lock.json
 .config/QtProject.conf
 .config/brightness_controller/**
 .config/ncmpcpp/error.log
@@ -45,6 +44,7 @@ Videos/**
 .config/mpd/database
 .config/kritarc
 .config/kritadisplayrc
+.config/nvim/**
 .gnupg/**
 .librewolf/**
 
