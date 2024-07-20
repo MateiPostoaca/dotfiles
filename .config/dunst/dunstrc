@@ -3,7 +3,7 @@
   monitor = 0
   follow = mouse
   width = 350
-  offset = 6x46
+  offset = 5x44
   icon_path = ~/.local/share/icons/dunst/
 
   progress_bar = true
@@ -19,7 +19,7 @@
   separator_color = "#3b4252"
   padding = 8
   horizontal_padding = 8
-  frame_width = 2
+  frame_width = 1
   corner_radius = 6
   sort = yes
   idle_threshold = 120
@@ -59,14 +59,14 @@
   background = "#2e3440"
   foreground = "#d8dee9"
   highlight = "#d8dee9"
-  frame_color = "#4c566a"
+  frame_color = "#81a1c1"
   timeout = 5
 
 [urgency_normal]
   background = "#2e3440"
   foreground = "#d8dee9"
   highlight = "#d8dee9"
-  frame_color = "#4c566a"
+  frame_color = "#81a1c1"
   timeout = 5
 
 [urgency_critical]

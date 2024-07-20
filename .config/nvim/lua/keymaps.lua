@@ -5,6 +5,7 @@ vim.keymap.set('n', '<F5>', ':NeoRunner<CR>')
 
 vim.keymap.set('v', '<leader>y', '"+y')
 vim.keymap.set('n', '<leader>w', ':w<cr>')
+vim.keymap.set('n', '<leader>q', ':q<cr>')
 
 -- Telescope
 vim.keymap.set('n', '<leader>?', require('telescope.builtin').oldfiles, { desc = 'Find recently opened files' })
@@ -27,7 +28,7 @@ vim.keymap.set('n', '<leader>e', '<cmd>Neotree toggle<cr>')
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
-vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
+-- vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
 
 -- Session manager
 vim.keymap.set('n', '<leader>ss', ':SessionManager save_current_session<cr>')
