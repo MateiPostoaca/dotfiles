@@ -16,6 +16,7 @@ Pictures/**
 Videos/**
 
 # other junk
+.config/nvim/**
 .yarn/**
 .npm/**
 .pki/**
@@ -44,7 +45,6 @@ Videos/**
 .config/mpd/database
 .config/kritarc
 .config/kritadisplayrc
-.config/nvim/**
 .gnupg/**
 .librewolf/**
 
