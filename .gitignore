@@ -17,6 +17,7 @@ Videos/**
 
 # other junk
 .config/nvim/**
+.config/nvim
 .yarn/**
 .npm/**
 .pki/**
