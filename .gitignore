@@ -25,7 +25,7 @@ Videos/**
 .stack/**
 .mozilla/**
 .local/share/**
-!.local/share/slock/**
+!.local/share/slock/
 !.local/share/icons/dunst/
 !Pictures/wallpaper.png
 .local/state/**
