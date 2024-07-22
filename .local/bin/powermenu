@@ -5,7 +5,8 @@ chosen=$(printf "󰐥 Shutdown\n󰜉 Restart\n󰍁 Lock\n󰤄 Suspend" | rofi -d
 case "$chosen" in
   "󰐥 Shutdown") sudo shutdown -h now ;;
   "󰜉 Restart") reboot ;;
-  "󰍁 Lock") betterlockscreen -l dim ;;
+# "󰍁 Lock") betterlockscreen -l dim ;;
+  "󰍁 Lock") slock ;;
   "󰤄 Suspend") sudo systemctl suspend ;;
   *) exit 1 ;;
 esac

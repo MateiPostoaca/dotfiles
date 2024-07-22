@@ -20,7 +20,8 @@ XF86MonBrightness{Up,Down}
 
 # lock screen
 super + x
-	betterlockscreen -l
+	slock
+	# betterlockscreen -l
 
 # powermenu
 super + z
@@ -52,7 +53,7 @@ super + e
 
 # lf file manager /mnt
 super + ctrl + e
-	kitty lf /mnt/data/anonymous/
+	kitty lf /hdd/anonymous/
 
 # lf file manager ~/Documents/Academic/
 super + shift + e
