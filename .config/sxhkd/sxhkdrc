@@ -59,8 +59,20 @@ super + ctrl + e
 super + shift + e
 	kitty lf ~/Documents/Academic/
 
+# anki
+super + r
+	anki
+
+# libreoffice writer
+super + shift + r
+	libreoffice --writer
+
+# libreoffice
+super + ctrl + r
+	libreoffice
+
 # ncmpcpp
-super + alt + m
+super + shift + w
 	kitty ncmpcpp
 
 # terminal emulator
