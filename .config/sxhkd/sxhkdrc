@@ -20,7 +20,7 @@ XF86MonBrightness{Up,Down}
 
 # lock screen
 super + x
-	slock
+	xlock
 	# betterlockscreen -l
 
 # powermenu
