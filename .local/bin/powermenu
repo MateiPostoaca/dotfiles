@@ -6,7 +6,7 @@ case "$chosen" in
   "󰐥 Shutdown") sudo shutdown -h now ;;
   "󰜉 Restart") reboot ;;
 # "󰍁 Lock") betterlockscreen -l dim ;;
-  "󰍁 Lock") xlock ;;
+  "󰍁 Lock") xlock -mode space;;
   "󰤄 Suspend") sudo systemctl suspend ;;
   *) exit 1 ;;
 esac
