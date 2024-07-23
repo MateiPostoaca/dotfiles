@@ -18,6 +18,13 @@ Print
 XF86MonBrightness{Up,Down}
 	brightnessctl set 5%{+,-}
 
+# other brightness
+super + shift + n
+	bright -
+
+super + shift + m
+	bright +
+
 # lock screen
 super + x
 	xlock -mode space
@@ -86,6 +93,10 @@ super + space
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+# remaps
+super + shift + z
+	remaps
 
 # II. bspwm hotkeys
 
