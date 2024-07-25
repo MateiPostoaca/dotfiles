@@ -34,6 +34,14 @@ super + x
 super + z
 	powermenu
 
+# remaps
+super + shift + z
+	remaps
+
+# keyboard layout change
+super + alt + m
+	toggle-keyboard
+
 # calculator
 super + alt + e
 	rofi -show calc
@@ -93,10 +101,6 @@ super + space
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
-
-# remaps
-super + shift + z
-	remaps
 
 # II. bspwm hotkeys
 

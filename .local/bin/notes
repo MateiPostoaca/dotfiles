@@ -1,4 +1,3 @@
 #!/bin/sh
 
-# Open Neovim and run the Neorg command
 nvim -c "Neorg workspace Notes"

@@ -4,11 +4,11 @@
 if [ -z "$(shopt -s nullglob; echo /sys/class/power_supply/BAT?*)" ]; then
     printf "󱟩\n"
 fi
-# Loop through all attached batteries and format the info
+
 for battery in /sys/class/power_supply/BAT?*; do
     # If non-first battery, print a space separator.
     [ -n "${capacity+x}" ] && printf " "
-    # Sets up the status and capacity
+
     capacity="$(cat "$battery/capacity" 2>&1)"
     case "$(cat "$battery/status" 2>&1)" in
         "Full") status="󰁹 " ;;
@@ -48,12 +48,11 @@ for battery in /sys/class/power_supply/BAT?*; do
     esac
 
     # Check if battery level is below 5%
-    if [ "$capacity" -le 3 ]; then
-        # Perform shutdown
+    if [ "$capacity" -lt 5 ]; then
         echo "Battery level is critically low. Initiating shutdown..."
         sudo shutdown -h now
     fi
-    # Prints the info
+
     printf "%s%d%%\n" "$status" "$capacity"
 done
 

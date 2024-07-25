@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Show wifi and percent strength or if none.
-# Show if connected to ethernet or if none.
-
 # Wifi
 if [ "$(cat /sys/class/net/w*/operstate 2>/dev/null)" = 'up' ]; then
   wifiicon="󰖩"
@@ -24,4 +21,5 @@ if [ "$ethericon" = '󰱓' ]; then
 else
   printf "%s\n" "$wifiicon"
 fi
+
 # printf "%s%s\n" "$wifiicon" "$ethericon"

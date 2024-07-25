@@ -24,10 +24,12 @@ Videos/**
 .hidden/**
 .stack/**
 .mozilla/**
+.minecraft/**
 .local/share/**
 !.local/share/slock/
 !.local/share/icons/dunst/
 !Pictures/wallpaper.png
+!Pictures/wallpaper2.jpg
 .local/state/**
 .git/**
 .cargo/**

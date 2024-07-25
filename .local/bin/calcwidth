@@ -1,10 +1,7 @@
 #!/bin/sh
 
-# get monitor width
 monitor_width=$(xrandr --current | grep '*' | uniq | awk '{print $1}' | cut -d 'x' -f1)
 
-# calculate the desired with of the polybar
 polybar_width=$((monitor_width - 10))
 
-# output
 echo $polybar_width

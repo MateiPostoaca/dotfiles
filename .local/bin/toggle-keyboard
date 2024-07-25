@@ -1,0 +1,16 @@
+#!/bin/bash
+
+layouts=("ro" "de")
+
+current_layout=$(setxkbmap -query | grep layout | awk '{print $2}')
+
+for i in "${!layouts[@]}"; do
+    if [[ "${layouts[$i]}" == "$current_layout" ]]; then
+        current_index=$i
+        break
+    fi
+done
+
+next_index=$(( (current_index + 1) % ${#layouts[@]} ))
+
+setxkbmap "${layouts[$next_index]}"
